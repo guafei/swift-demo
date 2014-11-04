@@ -27,6 +27,7 @@ class RootView: UIView
 {
     var delegate: RootViewDelegate?
     var demoClickBlock: funcBlock?
+    var networkBlock: funcBlock?
     
     func initViewWithFrame(externalFrame:CGRect)
     {
@@ -60,13 +61,25 @@ class RootView: UIView
     
     func tappedButton(button : UIButton)
     {
-        if(USE_BLOCK)
+        var index:Int = button.tag
+        switch index
         {
-            demoClickBlock?()
-        }else
-        {
-            delegate?.demoBtnClicked()
+            case 0:
+                demoClickBlock?()
+            case 1:
+                networkBlock?()
+            default :
+                demoClickBlock?()
         }
+        
+        
+//        if(USE_BLOCK)
+//        {
+//            demoClickBlock?()
+//        }else
+//        {
+//            delegate?.demoBtnClicked()
+//        }
     }
 
     
