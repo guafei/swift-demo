@@ -79,8 +79,5 @@ class ViewController: UIViewController,RootViewDelegate,NSURLConnectionDataDeleg
         alert.show()
 
     }
-
-    
-    
 }
 

@@ -20,7 +20,7 @@ class TableViewCell_Swift:UITableViewCell
     {
         self.frame = CGRectMake(0, 0, SCREEN_BOUNDS.size.width, CELL_HEIGHT)
         self.selectionStyle = UITableViewCellSelectionStyle.None;
-        var image = UIImage(named:"Avatar.jpeg")
+        var image = UIImage(named:"Avatar.jpg")
         var imageView = UIImageView(image: image)
         imageView.frame = CGRectMake(20, 20, 100, 100)
         
