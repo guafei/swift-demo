@@ -16,8 +16,8 @@
 		5643C6A219F6325600424059 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C6A119F6325600424059 /* RootView.swift */; };
 		5643C6A419F6476300424059 /* TabelViewCell_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C6A319F6476300424059 /* TabelViewCell_Swift.swift */; };
 		5643C6A619F6488400424059 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C6A519F6488400424059 /* Constants.swift */; };
-		5643C6AA19F660E600424059 /* Avatar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5643C6A919F660E600424059 /* Avatar.jpeg */; };
 		5643C6AC19F6622600424059 /* TableViewController_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C6AB19F6622600424059 /* TableViewController_Swift.swift */; };
+		56AE67E71A01CFEB00494974 /* Avatar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 56AE67E61A01CFEB00494974 /* Avatar.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,8 @@
 		5643C6A119F6325600424059 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		5643C6A319F6476300424059 /* TabelViewCell_Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabelViewCell_Swift.swift; sourceTree = "<group>"; };
 		5643C6A519F6488400424059 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		5643C6A919F660E600424059 /* Avatar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Avatar.jpeg; path = ../../../Avatar.jpeg; sourceTree = "<group>"; };
 		5643C6AB19F6622600424059 /* TableViewController_Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController_Swift.swift; sourceTree = "<group>"; };
+		56AE67E61A01CFEB00494974 /* Avatar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Avatar.jpeg; path = ../../Avatar.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +155,7 @@
 		5643C6A819F65FCD00424059 /* pictures */ = {
 			isa = PBXGroup;
 			children = (
-				5643C6A919F660E600424059 /* Avatar.jpeg */,
+				56AE67E61A01CFEB00494974 /* Avatar.jpeg */,
 			);
 			name = pictures;
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 			files = (
 				5643C68519F631F100424059 /* Main.storyboard in Resources */,
 				5643C68A19F631F100424059 /* LaunchScreen.xib in Resources */,
-				5643C6AA19F660E600424059 /* Avatar.jpeg in Resources */,
+				56AE67E71A01CFEB00494974 /* Avatar.jpeg in Resources */,
 				5643C68719F631F100424059 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +458,7 @@
 				5643C69B19F631F100424059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5643C69C19F631F100424059 /* Build configuration list for PBXNativeTarget "Tutorial_Project_0Tests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +467,7 @@
 				5643C69E19F631F100424059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

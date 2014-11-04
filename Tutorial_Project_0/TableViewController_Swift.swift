@@ -64,14 +64,4 @@ class TableViewController_Swift: UIViewController,UITableViewDataSource,UITableV
         alert.show()
     }
     
-    func connection(connection: NSURLConnection, didReceiveResponse response: NSURLResponse)
-    {
-//        assert(false, "test")
-    }
-    
-    func connection(connection: NSURLConnection, didReceiveData data: NSData)
-    {
-        assert(false, "test")
-    }
-    
 }
