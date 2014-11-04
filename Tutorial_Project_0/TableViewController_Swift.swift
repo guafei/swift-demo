@@ -28,10 +28,7 @@ class TableViewController_Swift: UIViewController,UITableViewDataSource,UITableV
     
     func initDataSource()
     {
-        var url:NSURL = NSURL(string: "http://127.0.0.1:8888/checksum-1.5.8-ios-test.xml")!
-        var request:NSURLRequest = NSURLRequest(URL: url)
-        var connection:NSURLConnection = NSURLConnection(request: request, delegate: self)!
-        connection.start()
+        
     }
     
     func initView()
